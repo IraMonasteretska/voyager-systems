@@ -4,10 +4,10 @@ $(document).ready(function () {
         speed: 1000,
         loop: true,
 
-        // autoplay: {
-        //     delay: 5000,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
 
         navigation: {
             nextEl: ".swiper-button-next.whitearrow",
@@ -16,6 +16,7 @@ $(document).ready(function () {
 
         pagination: {
             el: ".swiper-pagination.styledpagination",
+            clickable: true,
         },
     });
 
@@ -28,7 +29,21 @@ $(document).ready(function () {
         }
     });
 
+    // burger menu
+    if ($('.burger2').length) {
+        (function () {
+            var burger2;
+            burger2 = document.querySelector(".burger2");
+            burger2.addEventListener("click", function () {
+                return burger2.classList.toggle("on");
+            });
 
+        }).call(this);
+    }
 
+    $('.burger').click(function () {
+        $('body').toggleClass('hidden');
+        $('.header__nav').toggleClass('show');
+    })
 
 })

@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 500px;
 
     .swiper {
         z-index: inherit;
@@ -15,6 +16,7 @@
     height: calc(100vh - 94px);
     position: relative;
     overflow: hidden;
+    min-height: 500px;
 
     img {
         width: 100%;
@@ -138,7 +140,7 @@
 
         .container {
             position: relative;
-            z-index: 3;
+            z-index: 5;
         }
     }
 
@@ -501,13 +503,6 @@
     }
 }
 
-
-
-
-
-
-
-
 .background-picture {
     position: absolute;
     left: 0;
@@ -552,5 +547,358 @@
         width: 100%;
         height: 200px;
         background: linear-gradient(180deg, rgba(5, 5, 5, 0), #050505, rgba(5, 5, 5, 0));
+    }
+}
+
+@media(max-width:1499.8px) {
+
+    .swiper-button-next.whitearrow {
+        right: calc((100vw - 1305px) / 2);
+    }
+
+    .swiper-button-prev.whitearrow {
+        left: calc((100vw - 1305px) / 2);
+    }
+
+    .maingroup .descrwrap h4 {
+        margin-top: 30px;
+        font-size: 21px;
+    }
+
+    .contactus__info .item img {
+        margin-bottom: 20px;
+    }
+
+    .contactus__info .item {
+        padding: 40px 15px 10px 15px;
+        height: 270px;
+    }
+
+    .contactus__info .item p span {
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+    .infobox_dc h3,
+    .infobox_ourfilosophy h3,
+    .infobox_exp h3,
+    .dropusaline h3 {
+        margin-bottom: 40px;
+    }
+
+    .maingroup .descrwrap p {
+        margin-bottom: 20px;
+    }
+
+    .welcomesection__textwarap p,
+    .welcomesection__textwarap h5 {
+        margin-bottom: 15px;
+    }
+
+    .welcomesection__textwarap h1 {
+        font-size: 60px;
+    }
+
+    .infobox_dc h3 {
+        font-size: 36px;
+    }
+
+    .welcomesection__textwarap p,
+    .welcomesection__textwarap h5 {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1399.8px) {
+    .swiper-button-next.whitearrow {
+        right: calc((100vw - 1120px) / 2);
+    }
+
+    .swiper-button-prev.whitearrow {
+        left: calc((100vw - 1120px) / 2);
+    }
+
+
+    .infobox_dc .imggroup__top .bgel,
+    .infobox_dc .imggroup__bottom .bgel {
+        width: 90px;
+    }
+
+    .infobox_ourfilosophy .ourfilosophy__right {
+        text-align: right;
+
+        img {
+            max-width: 220px;
+        }
+    }
+
+    .infobox_ourfilosophy .ourfilosophy__left {
+        text-align: left;
+
+        img {
+            max-width: 220px;
+        }
+    }
+
+    .infobox_exp .descrwrap {
+        max-width: 100%;
+    }
+
+    .contactus__info .item img {
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+    .contactus__info .item p span {
+        font-size: 14px;
+    }
+
+    .contactus__info .item {
+        height: 220px;
+        padding: 25px 10px 10px 10px;
+    }
+
+
+
+
+
+
+
+}
+
+@media(max-width:1199.8px) {
+    .swiper-button-next.whitearrow {
+        right: calc((100vw - 940px) / 2);
+    }
+
+    .swiper-button-prev.whitearrow {
+        left: calc((100vw - 940px) / 2);
+    }
+
+    .welcomesection__textwarap h1 {
+        font-size: 50px;
+    }
+
+    .maingroup .descrwrap h4 {
+        font-size: 18px;
+    }
+
+    .infobox_exp {
+        padding: 100px 0;
+    }
+
+
+}
+
+@media(max-width:991.8px) {
+    .swiper-button-next.whitearrow {
+        right: calc((100vw - 700px) / 2);
+    }
+
+    .swiper-button-prev.whitearrow {
+        left: calc((100vw - 700px) / 2);
+    }
+
+    .welcomesection__textwarap {
+        padding: 0 50px;
+    }
+
+    .infobox_dc {
+        .col-xxl-5 {
+            order: 2;
+        }
+
+        .col-xxl-4 {
+            order: 1;
+        }
+    }
+
+    .maingroup:after {
+        display: none;
+    }
+
+    .infobox_dc .descrwrap {
+        margin-bottom: 40px;
+    }
+
+    .infobox_ourfilosophy {
+        .col-xxl-4 {
+            order: 1;
+        }
+
+        .col-xxl-2 {
+            order: 2;
+
+            &:nth-child(1) {
+                display: none;
+            }
+        }
+    }
+
+    .maingroup .infobox_ourfilosophy {
+        padding: 100px 0;
+    }
+
+    .maingroup {
+        .infobox_dc {
+            padding: 100px 0;
+        }
+    }
+
+    .contactus__info .item img {
+        margin-bottom: 5px;
+    }
+}
+
+@media(max-width:767.8px) {
+    .swiper-button-next.whitearrow {
+        right: calc((100vw - 520px) / 2);
+    }
+
+    .swiper-button-prev.whitearrow {
+        left: calc((100vw - 520px) / 2);
+    }
+
+    .background-picture img {
+        object-position: 0 0;
+    }
+
+    .background-picture:after {
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    .shadow-between:after {
+        height: 100px;
+        top: -50px;
+    }
+
+    .maingroup .infobox_dc {
+        padding: 100px 0 50px;
+    }
+
+    .maingroup .infobox_ourfilosophy,
+    .infobox_exp,
+    .contactus {
+        padding: 50px 0;
+    }
+
+    .infobox_ourfilosophy .col-xxl-2 {
+        display: none;
+    }
+
+    .contactus__info {
+        margin-bottom: 50px;
+    }
+
+    .contactus__info .item {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+        height: auto;
+        margin-bottom: 20px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .contactus h3 {
+        margin-bottom: 40px;
+    }
+
+    .welcomesection__textwarap h1 {
+        font-size: 36px;
+    }
+
+    .infobox_dc h3 {
+        font-size: 32px;
+    }
+
+    .welcomesection__textwarap h5,
+    .welcomesection__textwarap p,
+    .contactus__info .item p span {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:575.8px) {
+
+    .swiper-button-next.whitearrow,
+    .swiper-button-prev.whitearrow {
+        display: none;
+    }
+
+    .welcomesection__textwarap {
+        padding: 0;
+    }
+
+    .welcomesection__textwarap p {
+        margin-bottom: 5px;
+
+        br {
+            display: none;
+        }
+    }
+
+    .welcomesection__textwarap h5 {
+        margin-bottom: 5px;
+    }
+
+    .welcomesection__textwarap h1 {
+        line-height: 120%;
+    }
+
+    .maingroup .infobox_dc {
+        padding-top: 50px;
+    }
+
+    .infobox_dc .imggroup__top {
+        margin-bottom: 20px;
+    }
+
+    .inputfield {
+        margin-bottom: 20px;
+    }
+
+    .dropusaline h3,
+    .infobox_dc h3,
+    .infobox_exp h3,
+    .infobox_ourfilosophy h3,
+    .contactus h3 {
+        margin-bottom: 30px;
+    }
+
+    .infobox_dc h3,
+    .contactus h3 {
+        font-size: 24px;
+    }
+
+    .contactus__info .item {
+        padding: 15px 10px;
+
+        p {
+            margin-bottom: 0;
+    
+            span {
+                font-size: 14px;
+            }
+        }
     }
 }

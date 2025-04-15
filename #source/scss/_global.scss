@@ -7,6 +7,10 @@ body {
     font-size: 16px;
     font-family: "Raleway", sans-serif;
     color: #fff;
+
+    &.hidden {
+        overflow: hidden;
+    }
 }
 
 body * {
@@ -14,7 +18,7 @@ body * {
     line-height: 150%;
 }
 
-@media(min-width:1400px) {
+@media(min-width:1500px) {
     .container {
         max-width: 1484px;
     }
@@ -30,12 +34,12 @@ a {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 h1,
@@ -72,6 +76,9 @@ textarea {
 
 
 
+.text-end {
+    text-align: right;
+}
 
 .text-center {
     text-align: center;
@@ -112,5 +119,39 @@ textarea {
 
     &:hover {
         background: rgb(39 30 30 / 70%);
+    }
+}
+
+
+
+@media(max-width:1499.8px) {
+    h3 {
+        font-size: 36px;
+    }
+}
+
+@media(max-width:991.8px) {
+    .text-md-center {
+        text-align: center;
+    }
+
+    main.main {
+        padding-top: 84px;
+    }
+}
+
+@media(max-width:767.8px) {
+    h3 {
+        font-size: 32px;
+    }
+}
+
+@media(max-width:575.8px) {
+    h3 {
+        font-size: 24px;
+    }
+
+    main.main {
+        padding-top: 70px;
     }
 }
