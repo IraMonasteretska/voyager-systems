@@ -697,6 +697,11 @@
 }
 
 @media(max-width:991.8px) {
+    .welcomesection,
+    .mainslider__slide {
+        height: calc(100vh - 84px);
+    }
+
     .swiper-button-next.whitearrow {
         right: calc((100vw - 700px) / 2);
     }
@@ -839,6 +844,10 @@
 }
 
 @media(max-width:575.8px) {
+    .welcomesection,
+    .mainslider__slide {
+        height: calc(100vh - 65px);
+    }
 
     .swiper-button-next.whitearrow,
     .swiper-button-prev.whitearrow {
