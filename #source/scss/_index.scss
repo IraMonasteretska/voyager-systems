@@ -189,7 +189,7 @@
 .infobox_dc {
     position: relative;
 
-    h3 {
+    h2 {
         font-size: 40px;
         font-family: "Bruno Ace", sans-serif;
         line-height: 120%;
@@ -280,7 +280,7 @@
     }
 
     .ourfilosophy__center {
-        h3 {
+        h2 {
             margin-bottom: 62px;
             text-align: center;
             font-size: 40px;
@@ -334,7 +334,7 @@
         z-index: 1;
     }
 
-    h3 {
+    h2 {
         margin-bottom: 60px;
         background: linear-gradient(90deg, #F8FAFA 0%, #5D5D6B 100%);
         -webkit-background-clip: text;
@@ -381,7 +381,7 @@
         z-index: 3;
     }
 
-    h3 {
+    h2 {
         text-align: center;
         margin-bottom: 60px;
 
@@ -437,7 +437,7 @@
 
 .dropusaline {
     h3 {
-        font-size: 32px;
+        text-align: center;
     }
 
     .row {
@@ -585,9 +585,9 @@
 
 
 
-    .infobox_dc h3,
-    .infobox_ourfilosophy h3,
-    .infobox_exp h3,
+    .infobox_dc h2,
+    .infobox_ourfilosophy h2,
+    .infobox_exp h2,
     .dropusaline h3 {
         margin-bottom: 40px;
     }
@@ -605,7 +605,7 @@
         font-size: 60px;
     }
 
-    .infobox_dc h3 {
+    .infobox_dc h2 {
         font-size: 36px;
     }
 
@@ -824,7 +824,7 @@
 
 
 
-    .contactus h3 {
+    .contactus h2 {
         margin-bottom: 40px;
     }
 
@@ -832,7 +832,7 @@
         font-size: 36px;
     }
 
-    .infobox_dc h3 {
+    .infobox_dc h2 {
         font-size: 32px;
     }
 
@@ -887,15 +887,15 @@
     }
 
     .dropusaline h3,
-    .infobox_dc h3,
-    .infobox_exp h3,
-    .infobox_ourfilosophy h3,
-    .contactus h3 {
+    .infobox_dc h2,
+    .infobox_exp h2,
+    .infobox_ourfilosophy h2,
+    .contactus h2 {
         margin-bottom: 30px;
     }
 
-    .infobox_dc h3,
-    .contactus h3 {
+    .infobox_dc h2,
+    .contactus h2 {
         font-size: 24px;
     }
 
