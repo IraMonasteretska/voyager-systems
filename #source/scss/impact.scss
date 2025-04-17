@@ -772,6 +772,14 @@
     }
 }
 
+.imp7 {
+    .background-picture {
+       img {
+        object-fit: fill;
+       }
+    }
+}
+
 .imp9 {
     .background-picture {
         top: initial;
@@ -779,6 +787,8 @@
         height: 475px;
     }
 }
+
+
 
 
 
