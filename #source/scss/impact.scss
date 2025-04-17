@@ -358,9 +358,24 @@
         z-index: 4;
     }
 
-    h2 {
-        text-align: center;
+    .impactsection__header {
         margin-bottom: 70px;
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 20px 0 0 0;
+            background: linear-gradient(90deg, #F8FAFA 0%, #5D5D6B 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    h2,
+    h3 {
+        text-align: center;
+        margin: 0;
 
         span {
             display: inline-block;
@@ -376,23 +391,8 @@
         bottom: 0;
     }
 
-    .impbgv1 {
-        height: 900px;
-        bottom: 350px;
-        top: inherit;
-        img {
-            object-fit: fill;
-        }    
-    }
 
-    .impbgv2 {
-        top: 258px;
-        height: calC(100% + 200px);
 
-        img {
-            object-fit: fill;
-        }    
-    }
 }
 
 .impactsection-info {
@@ -408,7 +408,7 @@
 
     .descr {
         .title {
-            margin-bottom: 28px;
+            margin-bottom: 40px;
             color: #fff;
             font-size: 24px;
             font-weight: 600;
@@ -419,6 +419,11 @@
 
             &:last-child {
                 margin-bottom: 0;
+            }
+
+            span {
+                color: #11C4E2;
+                font-weight: 600;
             }
         }
     }
@@ -446,7 +451,7 @@
         li {
             position: relative;
             padding-left: 44px;
-            margin-bottom: 18px;
+            margin-bottom: 16px;
             color: #fff;
             font-size: 20px;
             font-weight: 500;
@@ -496,10 +501,15 @@
     .casemanagement__wrap {
         max-width: 920px;
         margin: 0 auto;
+
+        &.large {
+            max-width: 1220px;
+        }
     }
 }
 
-.casemanagement__wrap .col-xl-4 {
+.casemanagement__wrap .col-xl-4,
+.casemanagement__wrap .col-xl-3 {
     margin-top: 20px;
 }
 
@@ -556,7 +566,7 @@
 
         ul {
             list-style-type: none;
-            margin: 0;
+            margin: 0 0 32px 0;
             padding: 0;
 
             li {
@@ -590,3 +600,185 @@
         text-align: center;
     }
 }
+
+.impactsection h2.text-start,
+.impactsection h3.text-start {
+    text-align: left;
+}
+
+.casemanagement__wrap-botttext {
+    color: #fff;
+    max-width: 720px;
+    margin: 52px auto 0;
+    text-align: center;
+}
+
+.desuredoc .descr .subtitle {
+    img {
+        display: block;
+        width: 40px;
+        margin-bottom: 15px;
+    }
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.desuredoc .descr ul.styled-ul {
+    margin-bottom: 60px;
+
+    li {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.desuredoc .descr {
+    &>:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.desuredoc {
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.impactsection .impactsection__header p+h2 {
+    margin-top: 20px;
+}
+
+.impactsection-info.v2 {
+    .descr {
+        padding-left: 60px;
+        padding-right: 60px;
+
+        .impactsection__header {
+            margin-bottom: 40px;
+        }
+
+        .title {
+            margin-bottom: 32px;
+        }
+    }
+
+    .imgwrap img {
+        max-width: 473px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.bluetext {
+    color: #11C4E2 !important;
+    font-weight: 600;
+}
+
+.impactsection-info {
+    .text-end {
+        padding-right: 50px;
+    }
+}
+
+.desuredoc .descr p {
+    span {
+        color: #11C4E2;
+    }
+}
+
+.casemanagement {
+    position: relative;
+
+    .bgel2 {
+        position: absolute;
+        left: 0;
+        bottom: -50px;
+    }
+}
+
+
+// background-picture impbgv3
+
+.background-picture {
+    &.topshadow {
+        &::before {
+            content: "";
+            z-index: 2;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: -100px;
+            width: 100%;
+            height: 200px;
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 5, 5, 0)), color-stop(#050505), to(rgba(5, 5, 5, 0)));
+            background: linear-gradient(180deg, rgba(5, 5, 5, 0), #050505, rgba(5, 5, 5, 0));
+        }
+    }
+}
+
+.imp1 {
+    .background-picture {
+        height: 900px;
+        bottom: 350px;
+        top: inherit;
+
+        img {
+            object-fit: fill;
+        }
+    }
+}
+
+.imp2 {
+    .background-picture {
+        top: 258px;
+        height: calC(100% + 200px);
+
+        img {
+            object-fit: fill;
+        }
+    }
+}
+
+.imp3 {
+    .background-picture {
+        top: initial;
+        bottom: 0;
+        height: calC(100% - 400px);
+    }
+}
+
+.imp4 {
+    .background-picture {
+        height: 1100px;
+        top: -150px;
+
+        img {
+            object-fit: fill;
+        }
+    }
+}
+
+.imp5 {
+    .background-picture {
+        height: 858px;
+        top: -250px;
+
+        img {
+            object-fit: fill;
+        }
+    }
+}
+
+.imp9 {
+    .background-picture {
+        top: initial;
+        bottom: 0;
+        height: 475px;
+    }
+}
+
+
+

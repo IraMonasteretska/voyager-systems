@@ -78,9 +78,17 @@ textarea {
     outline: none;
 }
 
+.mb0 {
+    margin-bottom: 0 !important;
+}
 
+.mb30 {
+    margin-bottom: 30px !important;
+}
 
-
+.text-start {
+    text-align: left;
+}
 
 .text-end {
     text-align: right;
@@ -134,8 +142,12 @@ h1 {
 }
 
 @media(max-width:1499.8px) {
-    h2, h3 {
+    h2 {
         font-size: 36px;
+    }
+
+    h1 {
+        font-size: 60px;
     }
 }
 
