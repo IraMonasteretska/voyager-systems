@@ -302,3 +302,15 @@ header.header {
     }
 
 }
+
+@media(max-width:360.8px) {
+   
+    header.header {
+        .border-blue-btn {
+            text-align: center;
+            font-size: 15px;
+            padding: 5px 15px;
+        }
+    }
+    
+}

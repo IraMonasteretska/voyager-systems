@@ -872,6 +872,7 @@
 
     .welcomesection__textwarap h1 {
         line-height: 120%;
+        font-size: 32px;
     }
 
     .maingroup .infobox_dc {
@@ -891,7 +892,7 @@
     .infobox_exp h2,
     .infobox_ourfilosophy h2,
     .contactus h2 {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .infobox_dc h2,
@@ -910,4 +911,13 @@
             }
         }
     }
+
+}
+
+@media(max-width:360.8px) {
+    .welcomesection__textwarap h1  {
+        font-size: 28px;
+    }
+
+    
 }

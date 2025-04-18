@@ -509,7 +509,9 @@
 }
 
 .casemanagement__wrap .col-xl-4,
-.casemanagement__wrap .col-xl-3 {
+.casemanagement__wrap .col-xl-3,
+.casemanagement__wrap .col-lg-4,
+.casemanagement__wrap .col-lg-3 {
     margin-top: 20px;
 }
 
@@ -774,9 +776,9 @@
 
 .imp7 {
     .background-picture {
-       img {
-        object-fit: fill;
-       }
+        img {
+            object-fit: fill;
+        }
     }
 }
 
@@ -788,7 +790,458 @@
     }
 }
 
+@media(max-width:1499.8px) {
+    .herosect .imgwrap {
+        margin-top: 20px;
+    }
+
+    .impact-intro__wrap {
+        padding: 60px 80px 0 80px;
+    }
+
+    .impactgr-item .imgwrap {
+        height: 270px;
+    }
 
 
 
 
+
+
+
+
+
+
+    .impact-intro h4 {
+        font-size: 36px;
+    }
+
+    .impactsection-botttext p {
+        font-size: 30px;
+    }
+
+    .impact-intro__leftinf h3,
+    .impsulution .bottomtext p {
+        font-size: 28px;
+    }
+
+    .impactsection-list .title,
+    .desuredoc .descr .title {
+        font-size: 24px;
+    }
+
+    .descrsection .descr .title,
+    .impactsection-info .descr .title,
+    .desuredoc .descr .subtitle {
+        font-size: 21px;
+    }
+
+    .descrsection .descr .bluetext,
+    .impactsection-list ul li,
+    .desuredoc .descr ul li {
+        font-size: 18px;
+    }
+
+
+
+
+    .impact-intro h4,
+    .descrsection h2,
+    .impactsection .impactsection__header,
+    .desuredoc .descr ul.styled-ul {
+        margin-bottom: 40px;
+    }
+
+    .impactsection-info .descr .title {
+        margin-bottom: 30px;
+    }
+
+    .impact-intro__rightinf p,
+    .descrsection .descr p,
+    .impactsection-info .descr p,
+    .desuredoc .descr .title,
+    .desuredoc .descr p,
+    .impactsection-info.v2 .descr .title,
+    .desuredoc .descr .subtitle,
+    .impactsection-info .descr .title {
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .impactsection-list p {
+        br {
+            display: none;
+        }
+    }
+}
+
+@media(max-width:1399.8px) {
+
+    .herosect .imgwrap {
+        height: 400px;
+    }
+
+    .impact-intro__leftinf {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        img {
+            max-width: calc(100% - 40px);
+        }
+    }
+
+    .impact-intro__rightinf {
+        padding-bottom: 40px;
+    }
+
+    .impactgr-item .imgwrap {
+        height: 220px;
+        margin-bottom: 10px;
+    }
+
+    .impactgr-item p {
+        line-height: 160%;
+    }
+
+    .impactssection {
+        padding-bottom: 70px;
+    }
+
+    .impactsection .impactsection-list {
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .impact-intro h4,
+    .impactsection-botttext p {
+        font-size: 28px;
+    }
+
+    .herosect h5 {
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width:1199.8px) {
+
+
+    .impact-intro__leftinf {
+        max-width: 100%;
+
+        br {
+            display: none;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    .impact-intro__wrap {
+        padding: 50px 60px;
+    }
+
+    .impact-intro__rightinf {
+        padding-bottom: 0;
+    }
+
+    .impact-intro .bg2,
+    .impact-intro .bg1 {
+        width: 200px;
+    }
+
+    .impact-intro .bg1 {
+        bottom: -80px;
+    }
+
+    .impsulution .bottomtext {
+        margin-top: 60px;
+    }
+
+    .impactgr-item {
+        margin-bottom: 20px;
+    }
+
+    .impactgr-item .imgwrap {
+        height: 180px;
+    }
+
+    .impactsection-list ul li img {
+        width: 28px;
+    }
+
+    .casemanagement .bgel2 {
+        bottom: -80px;
+    }
+
+    .desuredoc .descr ul {
+        margin-bottom: 20px;
+    }
+
+    .impactsection-info.v2 .descr {
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .casemanagement h5 br,
+    .impactsection .impactsection__header p br,
+    .impactsection-info .descr p br {
+        display: none;
+    }
+
+    .casemanagement h5,
+    .desuredoc .descr ul li {
+        margin-bottom: 10px;
+    }
+
+    .impsulution__descr h3,
+    .impactsection-list ul {
+        margin-bottom: 20px;
+    }
+
+    .descrsection .descr .title,
+    .descrsection h2,
+    .desuredoc .descr ul.styled-ul,
+    .impact-intro h4,
+    .impactsection .impactsection__header,
+    .impactssection__header {
+        margin-bottom: 30px;
+    }
+
+    .desuredoc {
+        margin-bottom: 50px;
+    }
+
+    .impact-intro h4,
+    .impsulution .bottomtext p,
+    .impactsection-botttext p {
+        font-size: 24px;
+    }
+
+    .impactgr-item p {
+        font-size: 18px;
+    }
+
+    .impactsection-list ul li,
+    .desuredoc .descr ul li {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width:991.8px) {
+
+    br,
+    .impact-intro .bg1 {
+        display: none;
+    }
+
+    .impsulution .imgwrap img {
+        width: 100%;
+    }
+
+    .descrsection .imgwrap {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .impactsection-list p:last-child {
+        margin-bottom: 20px;
+    }
+
+    .impactsection .bgel1 {
+        width: 200px;
+        bottom: 100px;
+    }
+
+    .desuredoc .imgwrap {
+        display: none;
+    }
+
+    .impactsection .impactsection-list {
+        margin-top: 0;
+    }
+
+    .impactsection.imp6 .impactsection-info {
+        .imgwrap {
+            margin-bottom: 0;
+        }
+    }
+
+    .impactsection-list {
+        .row .col-xl-4:first-child .imgwrap {
+            display: none;
+        }
+    }
+
+    .background-picture img {
+        object-fit: cover !important;
+    }
+
+    .impactsection.imp7 .impactsection-info .descr {
+        margin-bottom: 0;
+    }
+
+
+
+
+    .impsulution .bottomtext {
+        margin-top: 40px;
+    }
+
+    .impactsection-info,
+    .impactsection-list,
+    .casemanagement {
+        margin-bottom: 50px;
+    }
+
+    .impsulution__descr,
+    .impactsection-info .imgwrap,
+    .desuredoc .imgwrap,
+    .impactsection-info .descr,
+    .impactsection-list .imgwrap {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767.8px) {
+    .herosect {
+        padding-top: 40px;
+    }
+
+    .herosect .imgwrap {
+        height: 250px;
+    }
+
+    .impact-intro__wrap {
+        padding: 40px;
+    }
+
+    .impact-intro {
+        padding: 50px 0 50px;
+    }
+
+    .desuredoc .descr ul.styled-ul {
+        margin-bottom: 16px;
+    }
+
+
+    .impactsection-info,
+    .impactsection-list {
+        margin-bottom: 30px;
+    }
+
+    .impact-intro h4,
+    .impact-intro__leftinf h3,
+    .descrsection .descr .title,
+    .impactsection .impactsection__header {
+        margin-bottom: 20px;
+    }
+
+    .impact-intro__leftinf h3,
+    .impsulution__descr h3 {
+        font-size: 24px;
+    }
+
+    .impact-intro h4,
+    .impactsection-botttext p,
+    .impsulution .bottomtext p,
+    .impactsection-list .title,
+    .desuredoc .descr .title {
+        font-size: 21px;
+    }
+
+    .impact-intro h4,
+    .impactsection-botttext p,
+    .impsulution .bottomtext p,
+    .descrsection .descr .title,
+    .casemanagement h5,
+    .impactsection-info .descr .title {
+        font-size: 18px;
+    }
+
+    .herosect h5 {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:575.8px) {
+    .impact-intro__wrap {
+        padding: 30px 20px;
+    }
+
+    .impsulution,
+    .impactsection {
+        padding-bottom: 70px;
+    }
+
+    .descrsection {
+        padding-bottom: 40px;
+    }
+
+    .impactgr-item {
+        margin-bottom: 10px;
+    }
+
+    .impactsection-info .descr {
+        margin-bottom: 0;
+    }
+
+    .col-xl-5+.col-xl-4 .imgwrap {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .impactsection-info.v2 .descr .impactsection__header {
+        margin-bottom: 20px;
+    }
+
+    .impactsection .impactsection__header {
+        margin-bottom: 20px !important;
+    }
+
+
+
+    .desuredoc .descr .subtitle {
+        font-size: 18px;
+    }
+
+    .impactsection .impactsection__header p {
+        font-size: 18px;
+        
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+    }
+
+}
