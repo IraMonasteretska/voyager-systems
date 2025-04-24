@@ -1,0 +1,47 @@
+.weserve {
+    padding: 100px 0 50px;
+
+    h2 {
+        font-weight: 400;
+
+        span {
+            display: inline-block;
+            background: -webkit-gradient(linear, left top, right top, from(#F8FAFA), to(#5D5D6B));
+            background: linear-gradient(90deg, #F8FAFA 0%, #5D5D6B 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .descr {
+        p {
+            color: #fff;
+            margin-bottom: 24px;
+
+            span {
+                color: #11C4E2;
+                font-weight: 600;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.wym {
+    padding: 60px 0 0 0;
+
+    h2 {
+        font-weight: 400;
+
+        span {
+            display: inline-block;
+            background: -webkit-gradient(linear, left top, right top, from(#F8FAFA), to(#5D5D6B));
+            background: linear-gradient(90deg, #F8FAFA 0%, #5D5D6B 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
