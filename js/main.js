@@ -79,4 +79,16 @@ $(document).ready(function () {
         });
     });
 
+
+    if ($('.telinput').length > 0) {
+        $('.telinput').inputmask({
+            "mask": "999-999-9999",
+            // placeholder: ' ',
+            showMaskOnHover: false,
+            showMaskOnFocus: false
+
+        });
+    }
+
+
 })
